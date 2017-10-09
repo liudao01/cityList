@@ -20,11 +20,11 @@ export default class NavigationBar extends Component {
     static def = {
         NavigationBarHeight:35,
     }
-  /*  static propTypes = {
+    static propTypes = {
         //验证，不传element组件类型，会报错提示
         rightButton: PropTypes.element,
         leftButton: PropTypes.element
-    }*/
+    }
 
     render() {
         return <View style={styles.container}>
